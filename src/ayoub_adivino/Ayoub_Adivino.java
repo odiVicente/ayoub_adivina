@@ -1,5 +1,5 @@
 package ayoub_adivino;
-
+// Corrección Vicente Antón
 // Ayoub Hiar
 
 import java.util.Random;
@@ -13,9 +13,10 @@ public class Ayoub_Adivino {
   
         int max = 50;
         int min = 10;
+        
         Random rand = new Random();
         int randomNum = rand.nextInt((max - min) + 1) + min;
-        //System.out.print(x);
+            //System.out.println(x);
         Scanner sc = new Scanner(System.in);
         do {
             System.out.print("\nIntroduce el valor de X: ");
